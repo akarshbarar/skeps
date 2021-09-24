@@ -1,0 +1,26 @@
+.home{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.home_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home_navbar{
+    display: flex;
+    flex-direction: row;
+}
+.home_navbar > ul{
+    display: flex;
+    flex-direction: row;
+}
+.home_requestDemoButton{
+    background-color: black;
+    color:white;
+    padding: 1rem;
+    border-radius: 100px;
+}
+.heading{
+    font-size: clamp(25px, 5vw, 100px);
+}
